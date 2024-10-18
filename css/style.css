@@ -106,7 +106,7 @@ main section.fruit-hover figure img:hover + figcaption {
   display: inline-block;
 }
 main .back-to-top-btn {
-  position: absolute;
+  position: fixed;
   bottom: 0;
   right: 0;
   background-color: #000;
