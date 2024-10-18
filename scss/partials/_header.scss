@@ -1,0 +1,29 @@
+@use './variables';
+
+header {
+  background-color: variables.$primary-color;
+  padding: .5rem;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+
+  .logo {
+    font-size: 1rem;
+  }
+
+  nav {
+    margin-top: .5rem;
+    ul {
+      display: flex;
+      gap: .5rem;
+      @media (max-width: 600px) {
+        justify-content: space-between;
+      }
+    }
+
+    a {
+      font-size: 1rem;
+    }
+  }
+}
